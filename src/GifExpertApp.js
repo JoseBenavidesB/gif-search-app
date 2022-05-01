@@ -5,10 +5,10 @@ import { GifGrid } from './components/GifGrid';
 
 //import PropTypes from 'prop-types'
 
-function GifExpertApp() {
+function GifExpertApp( {defaultCategories = []} ) {
     
     //const categories = ['One punch', 'One Piece', 'Dragon Ball']
-    const [categories, setCategories] = useState([]);
+    const [categories, setCategories] = useState(defaultCategories);
 
    /*  const handleAdd = ()=>{
         //setCategories( ['Hunter X Hunter', ...categories ]  );
