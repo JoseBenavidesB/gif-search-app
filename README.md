@@ -3,6 +3,6 @@
 This project find a gif from giphy and show only 5 elements
 
 ## ScreenShot of what this app looks like
-
+![Getting Started](./static/img/example1.PNG)
 
 Run `npm start` to start app
